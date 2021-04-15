@@ -2,7 +2,7 @@ from afinn import Afinn
 import nltk 
 nltk.download('vader_lexicon')
 from nltk.sentiment import SentimentIntensityAnalyzer
-from dataloader import load_data_and_label
+from dataloaderrc5 import load_data_and_label
 from collections import defaultdict
 from sklearn import svm
 from sklearn.pipeline import Pipeline
